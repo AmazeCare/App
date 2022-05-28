@@ -29,7 +29,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-primary relative">
+      <section className="py-20 bg-gray-200 text-primary relative">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style={{ transform: 'translateZ(0)' }}
@@ -44,7 +44,7 @@ function HomePage() {
             y="0"
           >
             <polygon
-              className="text-primary fill-current"
+              className="text-gray-200 fill-current"
               points="2560 0 2560 100 0 100"
             />
           </svg>
@@ -54,21 +54,21 @@ function HomePage() {
           <div className="flex flex-wrap -mx-8">
             <div className="w-full lg:w-1/2 px-8">
               <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading text-white">
+                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading ">
                   What Is Home Care?
                 </h2>
-                <p className="mb-8 leading-loose text-white">
+                <p className="mb-8 leading-loose ">
                   Home care is all about trust. It is about feeling comfortable with a home care
                   provider coming into your own private space.
                 </p>
-                <p className="mb-8 leading-loose text-white">
+                <p className="mb-8 leading-loose ">
                   Most of the elderly would prefer to stay at home rather than going to a retirement
                   home. But when frailty, forgetfulness or chronic illness makes living alone too
                   difficult, being forced to look for a nursing home, but Amaze care allows our
                   clients to maintain their quality of life and lifestyle at their own comfort zone
                   where they call it Home.
                 </p>
-                <p className="mb-8 leading-loose text-white">
+                <p className="mb-8 leading-loose ">
                   It’s all depending on what do you need, we have a variety of health care
                   professionals that we can help you with, qualified Nurses Lpn’s and Rn’s, massage
                   therapist, recreational therapist. Etc.
@@ -84,10 +84,10 @@ function HomePage() {
                     </span>
                   </div>
                   <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold text-white">
+                    <h3 className="my-4 text-xl font-semibold ">
                       Why Choose Amaze Care?
                     </h3>
-                    <p className="text-white leading-loose">
+                    <p className=" leading-loose">
                       We strive to provide the best possible service out there. Here are a few reasons,
                       among many others.
                     </p>
@@ -100,10 +100,10 @@ function HomePage() {
                     </span>
                   </div>
                   <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold text-white">
+                    <h3 className="my-4 text-xl font-semibold ">
                       Continuous Care Experts
                     </h3>
-                    <p className="text-white leading-loose">
+                    <p className=" leading-loose">
                       We specialize in around the clock care to help seniors live well at home.
                     </p>
                   </div>
@@ -115,10 +115,10 @@ function HomePage() {
                     </span>
                   </div>
                   <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold text-white">
+                    <h3 className="my-4 text-xl font-semibold ">
                       Available 24/7
                     </h3>
-                    <p className="text-white leading-loose">
+                    <p className=" leading-loose">
                       Care managers are on call for clients and their families, even during nights and
                       weekends.
                     </p>
@@ -130,7 +130,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-secondary relative">
+      <section className="py-20 bg-white relative">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style={{ transform: 'translateZ(0)' }}
