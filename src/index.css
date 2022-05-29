@@ -21,22 +21,33 @@ code {
   h1 {
     @apply text-2xl font-bold;
   }
+
   h2 {
     @apply text-xl font-semibold;
   }
+
   h3 {
     @apply text-lg font-semibold;
   }
+
   a {
     @apply underline;
   }
+
   p, label {
+    font-size: 20px;
     margin: 0 0 20px 0;
   }
+
   .link {
     @apply underline text-primary hover:text-secondary visited:text-secondary
   }
+  
   input {
     @apply w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
+  }
+
+  .nav-items {
+    @apply block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-gray-700 md:border-0 md:p-0 hover:text-primary;
   }
 }

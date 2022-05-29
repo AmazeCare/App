@@ -6,10 +6,12 @@ import logo from 'assets/logo.png'
 
 function NavItems() {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [isOpen, setisOpen] = useState(false);
+
   return (
     <nav className="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-white shadow">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="#" className="flex">
+        <a href="/" className="flex">
           <img className="mr-3 h-10" src={logo} alt="Logo" />
           <span className="self-center text-lg font-semibold whitespace-nowrap text-primary">
             Amaze
@@ -42,22 +44,41 @@ function NavItems() {
               <a href="/" className="block py-2 pr-4 pl-3 text-black rounded md:bg-transparent md:p-0 hover:text-primary" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="/about-us" className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 hover:text-primary">
+              <a href="/about-us" className="nav-items">
                 About Us
               </a>
             </li>
             <li>
-              <a href="/our-services" className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 hover:text-primary">
-                Our Services
-              </a>
+              <button onClick={() => setisOpen(!isOpen)} className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                Services
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
+              </button>
+              {isOpen && (
+                <div className="z-10 absolute bg-white divide-y divide-gray-100 rounded shadow w-44">
+                  <ul className="py-1 text-sm text-gray-700 dark:text-gray-200">
+                    <li>
+                      <a href="/contact-us" className="nav-items p-2">Associate Care</a>
+                    </li>
+                    <li>
+                      <a href="#" className="nav-items p-2">Cancer-Care</a>
+                    </li>
+                    <li>
+                      <a href="#" className="nav-items p-2">Home</a>
+                    </li>
+                    <li>
+                      <a href="#" className="nav-items p-2">Sign out</a>
+                    </li>
+                  </ul>
+                </div>
+              )}
             </li>
             <li>
-              <a href="/ns-govt-help" className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 hover:text-primary">
+              <a href="/ns-govt-help" className="nav-items">
                 Ns Gov. Help
               </a>
             </li>
             <li>
-              <a href="/contact-us" className="block py-2 pr-4 pl-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 hover:text-primary">
+              <a href="/contact-us" className="nav-items">
                 Contact Us
               </a>
             </li>

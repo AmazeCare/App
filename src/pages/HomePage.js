@@ -130,7 +130,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-white relative">
+      <section className="py-20 bg-white text-primary relative">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style={{ transform: 'translateZ(0)' }}
@@ -145,7 +145,7 @@ function HomePage() {
             y="0"
           >
             <polygon
-              className="text-secondary fill-current"
+              className="text-white fill-current"
               points="2560 0 2560 100 0 100"
             />
           </svg>
@@ -162,10 +162,10 @@ function HomePage() {
                     </span>
                   </div>
                   <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold text-white">
+                    <h3 className="my-4 text-xl font-semibold ">
                       Client Centered Care
                     </h3>
-                    <p className="text-white leading-loose">
+                    <p className=" leading-loose">
                       Our unique approach to care promotes healthy mind, body and spirit.
                     </p>
                   </div>
@@ -177,10 +177,10 @@ function HomePage() {
                     </span>
                   </div>
                   <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold text-white">
+                    <h3 className="my-4 text-xl font-semibold ">
                       Flexible Contracts
                     </h3>
-                    <p className="text-white leading-loose">
+                    <p className=" leading-loose">
                       Use our services only as long as you&#39;re 100% satisfied.
                     </p>
                   </div>
@@ -192,10 +192,10 @@ function HomePage() {
                     </span>
                   </div>
                   <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold text-white">
+                    <h3 className="my-4 text-xl font-semibold ">
                       Collaborative care
                     </h3>
-                    <p className="text-white leading-loose">
+                    <p className=" leading-loose">
                       We’re honored to be connected with qualified individuals to get relevant
                       information and even one on one care.
                     </p>
@@ -205,17 +205,17 @@ function HomePage() {
             </div>
             <div className="w-full lg:w-1/2 px-8">
               <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading text-white">
+                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading ">
                   What is Continuous Care?
                 </h2>
-                <p className="mb-8 leading-loose text-white">
+                <p className="mb-8 leading-loose ">
                   For people who are looking for an alternative instead of going to a facility, and
                   wants the comfort and safety of round-the-clock monitoring and care, we offer
                   24/7 continuous care. A caregiver comes to the senior’s home and stays around the
                   clock. With continuous care, a caregiver is always watching over the senior and is
                   ready to assist in all activities of daily living.
                 </p>
-                <p className="mb-8 leading-loose text-white">
+                <p className="mb-8 leading-loose ">
                   Continuous care does not mean that the caregiver moves into the senior’s home our
                   care givers follow the care plan that we created with the family and follow them
                   accordingly, ensuring high level of personal care and companionship that they
