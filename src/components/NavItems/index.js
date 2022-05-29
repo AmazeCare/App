@@ -9,11 +9,11 @@ function NavItems() {
   const [isOpen, setisOpen] = useState(false);
 
   return (
-    <nav className="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-white shadow">
+    <nav className="px-2 sm:px-4 py-2.5 bg-gray-50">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="/" className="flex">
+        <a href="/" className="flex no-underline">
           <img className="mr-3 h-10" src={logo} alt="Logo" />
-          <span className="self-center text-lg font-semibold whitespace-nowrap text-primary">
+          <span className="self-center text-2xl font-semibold text-primary">
             Amaze
             <span className="text-secondary">Care</span>
           </span>
@@ -41,7 +41,7 @@ function NavItems() {
         <div className={`${navbarOpen ? '' : 'hidden'} justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-4`}>
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
-              <a href="/" className="block py-2 pr-4 pl-3 text-black rounded md:bg-transparent md:p-0 hover:text-primary" aria-current="page">Home</a>
+              <a href="/" className="nav-items" aria-current="page">Home</a>
             </li>
             <li>
               <a href="/about-us" className="nav-items">
@@ -49,12 +49,12 @@ function NavItems() {
               </a>
             </li>
             <li>
-              <button onClick={() => setisOpen(!isOpen)} className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+              <button onClick={() => setisOpen(!isOpen)} className="font-semibold nav-items inline-flex items-baseline align-middle" type="button">
                 Services
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
               </button>
               {isOpen && (
-                <div className="z-10 absolute bg-white divide-y divide-gray-100 rounded shadow w-44">
+                <div className="z-10 absolute bg-white divide-y divide-gray-100 rounded px-4">
                   <ul className="py-1 text-sm text-gray-700 dark:text-gray-200">
                     <li>
                       <a href="/contact-us" className="nav-items p-2">Associate Care</a>
