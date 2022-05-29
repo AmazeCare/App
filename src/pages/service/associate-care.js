@@ -26,7 +26,7 @@ export default function AssociateCare() {
             />
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:px-6 md:px-12 lg:px-18">
           <div className="flex flex-col">
             <p className="my-2 text-justify">
               Amaze care provides this ultimate care experience for our clients.

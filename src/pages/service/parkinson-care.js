@@ -25,7 +25,7 @@ export default function ParkinsonCare() {
             />
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:px-6 md:px-12 lg:px-18">
           <div className="flex flex-col">
             <p className="my-2 text-justify">
               Parkinson`&apos;`s is a progressive neurological condition.

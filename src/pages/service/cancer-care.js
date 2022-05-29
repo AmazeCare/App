@@ -25,7 +25,7 @@ export default function CancerCare() {
             />
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:px-6 md:px-12 lg:px-18">
           <div className="flex flex-col">
             <p className="my-2 text-justify">
               At Amaze Care, our care plans are tailored to comfort each individual and their specific needs.

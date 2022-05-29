@@ -25,7 +25,7 @@ export default function HospitalCare() {
             />
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:px-6 md:px-12 lg:px-18">
           <div className="flex flex-col">
             <p className="my-2 text-justify">
               Being hospitalized for an emergency or a planned procedure or illness can be a very stressful event for both the patient and their family.

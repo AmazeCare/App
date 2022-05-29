@@ -25,7 +25,7 @@ export default function PalliativeCare() {
             />
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:px-6 md:px-12 lg:px-18">
           <div className="flex flex-col">
             <p className="my-2 text-justify">
               When a loved-one reaches the stage where treatment is no longer possible and moves into the phase of palliative care it can be a very difficult time for the patient and the family.

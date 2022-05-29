@@ -8,25 +8,25 @@ import {
 
 function Footer() {
   return (
-    <footer className="text-center lg:text-left bg-gray-100 text-primary">
+    <footer className="text-center lg:text-left bg-primary text-white">
       <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
         <div className="mr-12 hidden lg:block">
           <span>Get connected with us on social networks:</span>
         </div>
         <div className="flex justify-center">
-          <a href="#!" className="mr-6 text-primary">
+          <a href="#!" className="mr-6 text-white">
             <FacebookIcon />
           </a>
-          <a href="#!" className="mr-6 text-primary">
+          <a href="#!" className="mr-6 text-white">
             <TwitterIcon />
           </a>
-          <a href="#!" className="mr-6 text-primary">
+          <a href="#!" className="mr-6 text-white">
             <GoogleIcon />
           </a>
-          <a href="#!" className="mr-6 text-primary">
+          <a href="#!" className="mr-6 text-white">
             <InstagramIcon />
           </a>
-          <a href="#!" className="mr-6 text-primary">
+          <a href="#!" className="mr-6 text-white">
             <LinkedInIcon />
           </a>
         </div>
@@ -34,7 +34,7 @@ function Footer() {
       <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           <div className="">
-            <h6 className="
+            <h2 className="
             uppercase
             font-semibold
             mb-4
@@ -45,7 +45,7 @@ function Footer() {
           "
             >
               Our Mission
-            </h6>
+            </h2>
             <p>
               Our mission at
               <strong> AmazeCare </strong>
@@ -55,26 +55,26 @@ function Footer() {
             </p>
           </div>
           <div className="links">
-            <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+            <h2 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               Useful links
-            </h6>
+            </h2>
             <p className="mb-4">
-              <a href="/resources" className="text-primary">Resources</a>
+              <a href="/resources" className="text-white">Resources</a>
             </p>
             <p className="mb-4">
-              <a href="#!" className="text-primary">Careers</a>
+              <a href="#!" className="text-white">Careers</a>
             </p>
             <p className="mb-4">
-              <a href="#!" className="text-primary">Testimonials</a>
+              <a href="#!" className="text-white">Testimonials</a>
             </p>
             <p>
-              <a href="/ns-govt-help" className="text-primary">Nova Scotia Govt. Help</a>
+              <a href="/ns-govt-help" className="text-white">Nova Scotia Govt. Help</a>
             </p>
           </div>
           <div className="contact">
-            <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+            <h2 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               Contact
-            </h6>
+            </h2>
             <p className="flex items-center justify-center md:justify-start mb-4">
               <HomeIcon />
               Bridgewater, NS B4V 7Z2, Canada
@@ -94,9 +94,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-center p-6 bg-gray-200">
+      <div className="text-center p-6 bg-primary">
         <span>© 2022 Copyright:</span>
-        <a className="text-primary font-semibold" href="#.">AmazeCare</a>
+        <a className="text-white font-semibold" href="#.">AmazeCare</a>
       </div>
     </footer>
   )

@@ -25,7 +25,7 @@ export default function StrokeCare() {
             />
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:px-6 md:px-12 lg:px-18">
           <div className="flex flex-col">
             <p className="my-2 text-justify">
               When a person suffers a stroke, the world goes upside down for them.

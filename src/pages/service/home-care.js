@@ -25,7 +25,7 @@ export default function HomeCare() {
             />
           </svg>
         </div>
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:px-6 md:px-12 lg:px-18">
           <div className="flex flex-col">
             <p className="my-2 text-justify">
               Do you find yourself needing more care and help with your daily tasks and activities?
