@@ -5,9 +5,9 @@ import 'styles/components/Header/header.scss'
 function Header({ title }) {
   return (
     <main className="container flex flex-col lg:flex-row mx-auto sm:px-6 md:px-12 lg:px-18">
-      <div className="text-center lg:text-left flex-1 lg:w-2/3 py-8 lg:py-16 drop-shadow">
-        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl drop-shadow">
-          <span className="header xl:inline text-primary ">
+      <div className="text-center lg:text-left flex-1 lg:w-2/3 py-8 lg:py-16">
+        <h1 className="text-4xl tracking-tight font-semibold text-gray-900 sm:text-5xl md:text-6xl">
+          <span className="header xl:inline text-white ">
             {title}
           </span>
         </h1>

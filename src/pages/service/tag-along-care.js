@@ -1,0 +1,61 @@
+import React from 'react'
+import Header from 'components/Header'
+
+export default function TagAlongCare() {
+  return (
+    <main>
+      <Header bgcolor="bg-white" title="Our Services" />
+      <section className="py-20 bg-white relative">
+        <div
+          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+          style={{ transform: 'translateZ(0)' }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            />
+          </svg>
+        </div>
+        <div className="container mx-auto">
+          <div className="flex flex-col">
+            <p className="my-2 text-justify">
+              Our Nurses will be accompanying your loved ones all the time so that there won`&apos;`t be any issues with a specific diet or insulin or other medications,
+              everything is charted and followed through our employee and an assigned supervisor.
+            </p>
+            <p className="my-2 text-justify">
+              If your loved ones wanted to go for a family gathering but unable to go due to mobility issues we`&apos;`ve got you covered.
+            </p>
+            <p className="my-2 text-justify"> Our services are: </p>
+            <h2> Patient transfer (wheel chair accessible) </h2>
+            <p className="my-2 text-justify">
+              Worried about long waiting time and uncertainty of transferring from one place to other ? Contact AmazeCare our Nurses will transfer you from one place to another without any hassle.
+              Contact our team for more info. (one bag can be taken with the crew)
+            </p>
+            <h2> Moving services </h2>
+            <p className="my-2 text-justify">
+              Worried about moving one facility to another, our team will cover all that during your absence everything will be charted and packed and delivered along with the patient from one facility to another.
+              Contact our team.
+            </p>
+            <h2> Travel package (wheel chair accessible) </h2>
+            <p className="my-2 text-justify">
+              Do you want your loved ones to explore places, or want to go bowling or surfing, maybe go to a favorite restaurant… etc.
+              AmazeCare got you covered with transportation and managing medication and other health related issues.
+              All our nurses are registered and certified. Contact us for more information
+            </p>
+            <h2> Appointment/Meeting/family gathering. (Wheelchair accessible) </h2>
+            <p className="my-2 text-justify"> Our Licensed staff will be at your service picking up you from your starting point and being with you to fulfill whatever we have charted through until safely returning you back to your destination.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

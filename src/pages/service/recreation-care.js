@@ -1,10 +1,7 @@
 import React from 'react'
 import Header from 'components/Header'
-import {
-  AssociateCare, CancerCare, HospitalCare, PalliativeCare, ParkinsonCare, HomeCare, SubstituteHomeCare, StrokeCare, TagAlongCare, RecreationCare,
-} from 'components/ServiceCard/common'
 
-export default function OurServices() {
+export default function RecreationCare() {
   return (
     <main>
       <Header bgcolor="bg-white" title="Our Services" />
@@ -29,18 +26,15 @@ export default function OurServices() {
           </svg>
         </div>
         <div className="container mx-auto">
-          <div className="grid lg:grid-cols-3 gap-6">
-            <AssociateCare />
-            <CancerCare />
-            <HospitalCare />
-            <PalliativeCare />
-            <ParkinsonCare />
-            <HomeCare />
-            <StrokeCare />
-            <SubstituteHomeCare />
-            <RecreationCare />
-            <div />
-            <TagAlongCare />
+          <div className="flex flex-col">
+            <p className="my-2 text-justify">
+              Are you worried that your loved one is at the home unable to move due to a physical disability,
+              not to worry our recreational therapist can take care of this issue we have several programs
+              tailored that the clients can choose from even if its bowling, sailing, fishing the list goes on,
+              it all depends what is the best for the client. Call us to find out.
+
+            </p>
+            <p>Call us to find out.</p>
           </div>
         </div>
       </section>

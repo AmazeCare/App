@@ -57,16 +57,31 @@ function NavItems() {
                 <div className="z-10 absolute bg-white divide-y divide-gray-100 rounded px-4">
                   <ul className="py-1 text-sm text-gray-700 dark:text-gray-200">
                     <li>
-                      <a href="/contact-us" className="nav-items p-2">Associate Care</a>
+                      <a href="/associate-care" className="nav-items p-2">Associate Care</a>
                     </li>
                     <li>
-                      <a href="#" className="nav-items p-2">Cancer-Care</a>
+                      <a href="/cancer-care" className="nav-items p-2">Cancer Care</a>
                     </li>
                     <li>
-                      <a href="#" className="nav-items p-2">Home</a>
+                      <a href="/home-care" className="nav-items p-2">Home Care</a>
                     </li>
                     <li>
-                      <a href="#" className="nav-items p-2">Sign out</a>
+                      <a href="/hospital-care" className="nav-items p-2">Hospital Care</a>
+                    </li>
+                    <li>
+                      <a href="/palliative-care" className="nav-items p-2">Palliative Care</a>
+                    </li>
+                    <li>
+                      <a href="/parkinson-care" className="nav-items p-2">Parkinson Care</a>
+                    </li>
+                    <li>
+                      <a href="/recreation-care" className="nav-items p-2">Recreation Care</a>
+                    </li>
+                    <li>
+                      <a href="/stroke-care" className="nav-items p-2">Stroke Care</a>
+                    </li>
+                    <li>
+                      <a href="/substitute-care" className="nav-items p-2">Substitute Care</a>
                     </li>
                   </ul>
                 </div>
