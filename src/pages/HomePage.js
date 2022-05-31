@@ -69,17 +69,17 @@ function HomePage() {
                   where they call it Home.
                 </p>
                 <p className="mb-8 leading-loose ">
-                  It’s all depending on what do you need, we have a variety of health care
-                  professionals that we can help you with, qualified Nurses Lpn’s and Rn’s, massage
+                  It&apos;s all depending on what do you need, we have a variety of health care
+                  professionals that we can help you with, qualified Nurses Lpn&apos;s and Rn&apos;s, massage
                   therapist, recreational therapist. Etc.
                 </p>
               </div>
             </div>
             <div className="w-full lg:w-1/2 px-8">
               <ul className="space-y-12">
-                <li className="flex -mx-4">
+                <li className="flex items-baseline -mx-4">
                   <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-secondary">
+                    <span className="rounded-number">
                       1
                     </span>
                   </div>
@@ -93,9 +93,9 @@ function HomePage() {
                     </p>
                   </div>
                 </li>
-                <li className="flex -mx-4">
+                <li className="flex items-baseline -mx-4">
                   <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-secondary">
+                    <span className="rounded-number">
                       2
                     </span>
                   </div>
@@ -108,9 +108,9 @@ function HomePage() {
                     </p>
                   </div>
                 </li>
-                <li className="flex -mx-4">
+                <li className="flex items-baseline -mx-4">
                   <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-secondary">
+                    <span className="rounded-number">
                       3
                     </span>
                   </div>
@@ -155,9 +155,9 @@ function HomePage() {
           <div className="flex flex-wrap -mx-8">
             <div className="w-full lg:w-1/2 px-8">
               <ul className="space-y-12">
-                <li className="flex -mx-4">
+                <li className="flex items-baseline -mx-4">
                   <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-secondary">
+                    <span className="rounded-number">
                       4
                     </span>
                   </div>
@@ -170,9 +170,9 @@ function HomePage() {
                     </p>
                   </div>
                 </li>
-                <li className="flex -mx-4">
+                <li className="flex items-baseline -mx-4">
                   <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-secondary">
+                    <span className="rounded-number">
                       5
                     </span>
                   </div>
@@ -185,9 +185,9 @@ function HomePage() {
                     </p>
                   </div>
                 </li>
-                <li className="flex -mx-4">
+                <li className="flex items-baseline -mx-4">
                   <div className="px-4">
-                    <span className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-secondary">
+                    <span className="rounded-number">
                       6
                     </span>
                   </div>
@@ -196,7 +196,7 @@ function HomePage() {
                       Collaborative care
                     </h3>
                     <p className=" leading-loose">
-                      We’re honored to be connected with qualified individuals to get relevant
+                      We&apos;re honored to be connected with qualified individuals to get relevant
                       information and even one on one care.
                     </p>
                   </div>
@@ -211,12 +211,12 @@ function HomePage() {
                 <p className="mb-8 leading-loose ">
                   For people who are looking for an alternative instead of going to a facility, and
                   wants the comfort and safety of round-the-clock monitoring and care, we offer
-                  24/7 continuous care. A caregiver comes to the senior’s home and stays around the
+                  24/7 continuous care. A caregiver comes to the senior&apos;s home and stays around the
                   clock. With continuous care, a caregiver is always watching over the senior and is
                   ready to assist in all activities of daily living.
                 </p>
                 <p className="mb-8 leading-loose ">
-                  Continuous care does not mean that the caregiver moves into the senior’s home our
+                  Continuous care does not mean that the caregiver moves into the senior&apos;s home our
                   care givers follow the care plan that we created with the family and follow them
                   accordingly, ensuring high level of personal care and companionship that they
                   deserve.

@@ -88,8 +88,8 @@ function NavItems() {
               )}
             </li>
             <li>
-              <a href="/ns-govt-help" className="nav-items">
-                Ns Gov. Help
+              <a href="/blog" className="nav-items">
+                Blog
               </a>
             </li>
             <li>
