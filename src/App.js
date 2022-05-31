@@ -6,6 +6,7 @@ import HomePage from 'pages/HomePage'
 import AboutUs from 'pages/AboutUs'
 import Resources from 'pages/Resources'
 import ContactUs from 'pages/ContactUs'
+import Blog from 'pages/Blog'
 import NsGovtHelp from 'pages/NsGovtHelp'
 import AssociateCare from 'pages/service/associate-care'
 import CancerCare from 'pages/service/cancer-care'
@@ -29,6 +30,7 @@ function App() {
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/resources" element={<Resources />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/ns-govt-help" element={<NsGovtHelp />} />
             <Route path="/associate-care" element={<AssociateCare />} />
             <Route path="/cancer-care" element={<CancerCare />} />
