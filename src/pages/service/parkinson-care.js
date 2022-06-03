@@ -4,7 +4,7 @@ import Header from 'components/Header'
 export default function ParkinsonCare() {
   return (
     <main>
-      <Header bgcolor="bg-white" title="Our Services" />
+      <Header bgcolor="bg-white" title="Parkinson Care" />
       <section className="py-20 bg-white relative">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"

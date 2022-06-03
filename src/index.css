@@ -39,6 +39,9 @@
     @apply w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
   }
 
+  a {
+    /* @apply  */
+  }
   .nav-items {
     @apply block px-4 py-2 text-black border-gray-100 no-underline hover:bg-gray-100 hover:text-primary rounded-lg text-xl outline-offset-0;
   }

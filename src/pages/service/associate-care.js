@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Header from 'components/Header'
+// import CancerCareImage from 'assets/images/Services/CancerCare.jpg'
 
 export default function AssociateCare() {
   return (
@@ -43,7 +44,7 @@ export default function AssociateCare() {
               We offer a variety of services depending on the professional that you are looking for.
               For example:- if you need a caregiver some of the services are,
             </p>
-            <p className="my-2 mx-4">
+            <p className="my-2 mx-4 flex items-center">
               <ul className="list-disc">
                 <li> Light housekeeping </li>
                 <li> Light Meal preparation </li>
@@ -56,6 +57,11 @@ export default function AssociateCare() {
                 </li>
                 <li> Encouraging physical activity (walking, stretching, etc.) </li>
               </ul>
+              {/* <img
+                alt=""
+                src={CancerCareImage}
+                className="w-1/2 h-1/2 align-middle rounded-lg"
+              /> */}
             </p>
             <p className="my-2 text-justify">
               When a loved one is home alone, isolation and worry can become a problem.

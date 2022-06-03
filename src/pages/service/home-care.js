@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from 'components/Header'
+import HomeCareImage from 'assets/images/Services/HomeCare1.jpg'
 
 export default function HomeCare() {
   return (
@@ -41,23 +42,32 @@ export default function HomeCare() {
               AmazeCare offers day and night schedules where you can choose what you want, you also have the option to set medical appointments or outings during that period.
               All you have to do is let our team know about what you want and we will take care of it for you.
             </p>
-            <p className="my-2 text-justify">
-              With Amaze care, clients enjoy help with:
-            </p>
-            <p className="my-2 mx-4">
-              <ul className="list-disc">
-                <li> Grocery shopping and running errands </li>
-                <li> Cooking (meal and snack preparation) </li>
-                <li> Light housekeeping, dishes, changing the bed, laundry </li>
-                <li> Assistance with bathing, toileting and dressing </li>
-                <li> Transportation to and assistance with doctor`&apos;`s appointments, shopping, pharmacy outings </li>
-                <li> Assisting with walking, exercise and mobility </li>
-                <li> Giving status updates and feedback to the family </li>
-                <li> Medication reminders </li>
-              </ul>
-            </p>
-            <p className="my-2 text-justify"> And more! </p>
-            <h2> Dedicated and Professional Caregivers </h2>
+
+            <div className="flex flex-wrap space-x-4 items-center bg-gray-100">
+              <p className="m-2 md:w-[55%]">
+                With Amaze care, clients enjoy help with:
+                <ul className="list-disc ml-8">
+                  <li> Grocery shopping and running errands </li>
+                  <li> Cooking (meal and snack preparation) </li>
+                  <li> Light housekeeping, dishes, changing the bed, laundry </li>
+                  <li> Assistance with bathing, toileting and dressing </li>
+                  <li> Transportation to and assistance with doctor&apos;s appointments, shopping, pharmacy outings </li>
+                  <li> Assisting with walking, exercise and mobility </li>
+                  <li> Giving status updates and feedback to the family </li>
+                  <li> Medication reminders </li>
+                </ul>
+                <ul className="my-2 text-justify"> And more! </ul>
+              </p>
+              <div className="md:w-[40%]">
+                <img
+                  alt=""
+                  src={HomeCareImage}
+                  className="align-middle rounded-lg shadow-2xl"
+                />
+              </div>
+            </div>
+
+            <h2 className="mt-8"> Dedicated and Professional Caregivers </h2>
             <p className="my-2 text-justify">
               Our caregivers are dedicated and compassionate, focusing on the overall well-being of our clients.
               Rest assured that we are on call to serve you 24 hours a day, 7 days a week.
