@@ -56,9 +56,9 @@ function NavItems() {
               {isOpen && (
                 <div className="z-10 absolute bg-white divide-y divide-gray-100 rounded px-4">
                   <ul className="py-1 text-sm text-gray-700 dark:text-gray-200">
-                    <li>
+                    {/* <li>
                       <a href="/associate-care" className="nav-items p-2">Associate Care</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="/cancer-care" className="nav-items p-2">Cancer Care</a>
                     </li>

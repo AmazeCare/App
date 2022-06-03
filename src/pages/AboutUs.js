@@ -95,9 +95,9 @@ function AboutUs() {
                 src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
               />
             </div>
-            <div className="w-full md:w-1/2 ml-auto mr-auto px-4">
+            <div className="w-full md:w-1/2 ml-auto mr-auto px-4 text-justify">
               <div className="md:pr-12">
-                <h3 className="text-3xl text-white font-semibold">Amaze Care – Compassionate Caregivers</h3>
+                <h3 className="text-3xl text-white font-semibold text-left">Amaze Care – Compassionate Caregivers</h3>
                 <p className="mt-4 text-lg leading-relaxed text-white">
                   Our employment criteria are well designed to get the best workers out there who are caring, compassionate and qualified.
                   Even though we receive a fair share of resumes, we do narrow it down before the interview.
@@ -106,7 +106,7 @@ function AboutUs() {
                   Of course, we don’t want to fire someone who we’ve invested so much time and money to recruit,
                   but if expectations are not met in your home then we are forced to remove and replace them immediately
                 </p>
-                <h3 className="text-3xl text-white font-semibold">Client and Caregiver Team</h3>
+                <h3 className="text-3xl text-white font-semibold text-left">Client and Caregiver Team</h3>
                 <p className="mt-4 text-lg leading-relaxed text-white">
                   We always make sure we have the right caregiver for you depending on your situation,
                   even though all of our caregivers are qualified depending on what their profession is,
@@ -115,14 +115,14 @@ function AboutUs() {
                   but bear in mind that a low-cost option will most likely not be the best quality option.
                   We encourage all of our potential clients to do their homework because we are confident in our services and we are available anytime you want us to.
                 </p>
-                <h3 className="text-3xl text-white font-semibold">Amaze care approach to screening and hiring</h3>
+                <h3 className="text-3xl text-white font-semibold text-left">Amaze care approach to screening and hiring</h3>
                 <p className="mt-4 text-lg leading-relaxed text-white">
                   Once we have done the interview and we have decided to go with the candidate,
                   we proceed with a thorough screening process, a full criminal background check,
                   verify professional references...etc. We take all the risk.
                   All you have to do is tell us how we can help you.
                 </p>
-                <h3 className="text-3xl text-white font-semibold">Mandatory training and Education</h3>
+                <h3 className="text-3xl text-white font-semibold text-left">Mandatory training and Education</h3>
                 <p className="mt-4 text-lg leading-relaxed text-white">
                   At Amaze Care we understand that our caregivers have to maintain a certain level of standard.
                   This is why we invest continued time and effort into keeping their training and education up to date.

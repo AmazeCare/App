@@ -25,15 +25,28 @@ export default function Blog() {
             />
           </svg>
         </div>
-        <div className="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
-          <a href="#.">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-          <a href="#/" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-            <svg className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" /></svg>
-          </a>
+        <div className="focus:outline-none mx-8">
+          <div className="py-4 px-8 w-full flex justify-between bg-secondary">
+            <p className="focus:outline-none text-sm text-white font-semibold tracking-wide">NS Govt. Help</p>
+            <p className="focus:outline-none text-sm text-white font-semibold tracking-wide">13TH Oct, 2020</p>
+          </div>
+          <div className="bg-gray-100 px-10 py-6 rounded-bl-3xl rounded-br-3xl">
+            <h1 className="focus:outline-none text-4xl text-gray-900 font-semibold tracking-wider">NS Govt. Help</h1>
+            <p className="focus:outline-none text-gray-700 text-base lg:text-lg lg:leading-8 tracking-wide mt-6 w-11/12">
+              The Supportive Care Program supports eligible Nova Scotians with cognitive impairments (difficulty thinking, concentrating, remembering, etc.) by providing them with up to $1,000/month for Home Support Services (personal care, respite, meal preparation and household chores).
+              Under this program people may also be eligible to receive reimbursement for snow removal services up to $495/year.
+            </p>
+            <div className="w-full flex justify-end">
+              <button
+                type="button"
+                className="focus:outline-none focus:ring-2 ring-offset-2 focus:ring-gray-600 hover:opacity-75 mt-4 justify-end flex items-center cursor-pointer"
+              >
+                <span className=" text-base tracking-wide text-indigo-700">Read more</span>
+                <img className="ml-3 lg:ml-6" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/2-column-with-main-and-supporting-svg1.svg" alt="arrow" />
+              </button>
+            </div>
+            <div className="h-5 w-2" />
+          </div>
         </div>
       </section>
     </main>

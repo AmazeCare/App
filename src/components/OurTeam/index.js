@@ -62,7 +62,7 @@ function OurTeam() {
     image: '',
     title: 'DIRECTOR OF CARE AND DEVELOPMENT',
   }, {
-    name: 'ADELAIDE ROSHAN',
+    name: 'ADILADE GONSALVES',
     image: '',
     title: 'DIRECTOR OF OPERATIONS',
   }]
