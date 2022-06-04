@@ -2,15 +2,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-filename-extension */
 import React, { useState } from 'react'
+// import { useNavigate } from 'react-router-dom';
+import OutsideClickHandler from 'react-outside-click-handler';
 import logo from 'assets/logo.png'
 
 function NavItems() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [isOpen, setisOpen] = useState(false);
+  // const navigate = useNavigate();
 
   return (
-    <nav className="px-2 sm:px-4 py-2.5 bg-gray-50">
-      <div className="container flex flex-wrap justify-between items-center mx-auto">
+    <nav className="py-2.5 bg-[#F5F9F9]">
+      <div className="container-layout flex flex-wrap justify-between items-center">
         <a href="/" className="flex no-underline">
           <img className="mr-3 h-10" src={logo} alt="Logo" />
           <span className="self-center text-2xl font-semibold text-primary">
@@ -19,12 +22,13 @@ function NavItems() {
           </span>
         </a>
         <div className="flex md:order-2">
-          <button
+          {/* <button
             type="button"
+            onClick={() => navigate('/contact-us')}
             className="text-white bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
           >
             Get started
-          </button>
+          </button> */}
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
             type="button"
@@ -38,7 +42,7 @@ function NavItems() {
             </svg>
           </button>
         </div>
-        <div className={`${navbarOpen ? '' : 'hidden'} justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-4`}>
+        <div className={`${navbarOpen ? '' : 'hidden'} justify-right items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-4`}>
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
               <a href="/" className="nav-items" aria-current="page">Home</a>
@@ -54,11 +58,15 @@ function NavItems() {
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>
               </button>
               {isOpen && (
-                <div className="z-10 absolute bg-white divide-y divide-gray-100 rounded px-4">
+              <div className="z-10 absolute bg-white divide-y divide-gray-100 rounded px-4">
+                <OutsideClickHandler
+                  onOutsideClick={() => setisOpen(!isOpen)}
+                >
+
                   <ul className="py-1 text-sm text-gray-700 dark:text-gray-200">
                     {/* <li>
-                      <a href="/associate-care" className="nav-items p-2">Associate Care</a>
-                    </li> */}
+                        <a href="/associate-care" className="nav-items p-2">Associate Care</a>
+                      </li> */}
                     <li>
                       <a href="/cancer-care" className="nav-items p-2">Cancer Care</a>
                     </li>
@@ -84,7 +92,8 @@ function NavItems() {
                       <a href="/substitute-care" className="nav-items p-2">Substitute Care</a>
                     </li>
                   </ul>
-                </div>
+                </OutsideClickHandler>
+              </div>
               )}
             </li>
             <li>

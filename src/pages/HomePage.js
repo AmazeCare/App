@@ -1,13 +1,17 @@
-/* eslint-disable max-len */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import mainImage from 'assets/main-page.png'
+import Paragraph from 'components/common/paragraph';
+import { BiHealth } from 'react-icons/bi';
+import {
+  FaBuromobelexperte, FaClock, FaHospitalUser, FaFileContract, FaInfoCircle,
+} from 'react-icons/fa'
+import Features from 'components/common/features';
 
 function HomePage() {
   return (
     <main>
-      <section className="px-4 sm:px-6 lg:px-8 shadow bg-white">
-        <div className="container mx-auto flex flex-col lg:flex-row">
+      <section className="px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="container-layout flex flex-col lg:flex-row">
           <div className="text-center lg:text-left flex-1 lg:w-2/3 lg:pt-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span className="xl:inline text-primary">Amaze</span>
@@ -19,7 +23,7 @@ function HomePage() {
             </p>
             <div className="m-auto lg:m-0 w-2/3 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
-                <a href="" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-secondary md:py-4 md:text-lg md:px-10">
+                <a href="/contact-us" className="button-link">
                   Book Now
                 </a>
               </div>
@@ -29,200 +33,69 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gray-200 text-primary relative">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: 'translateZ(0)' }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-gray-200 fill-current"
-              points="2560 0 2560 100 0 100"
-            />
-          </svg>
-        </div>
-
-        <div className="container mx-auto p-4 sm:p-6 lg:p-8">
-          <div className="flex flex-wrap -mx-8">
-            <div className="w-full lg:w-1/2 px-8">
-              <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading ">
-                  What Is Home Care?
-                </h2>
-                <p className="mb-8 leading-loose ">
+      <section className="py-20 bg-tertiary">
+        <div className="container-layout">
+          <div className="flex flex-wrap items-center justify-between md:space-x-8">
+            <div className="md:flex-1 text-center mx-auto">
+              <Paragraph heading="What Is Home Care?">
+                <p>
                   Home care is all about trust. It is about feeling comfortable with a home care
                   provider coming into your own private space.
                 </p>
-                <p className="mb-8 leading-loose ">
+                <p>
                   Most of the elderly would prefer to stay at home rather than going to a retirement
                   home. But when frailty, forgetfulness or chronic illness makes living alone too
                   difficult, being forced to look for a nursing home, but Amaze care allows our
                   clients to maintain their quality of life and lifestyle at their own comfort zone
                   where they call it Home.
                 </p>
-                <p className="mb-8 leading-loose ">
+                <p>
                   It&apos;s all depending on what do you need, we have a variety of health care
                   professionals that we can help you with, qualified Nurses Lpn&apos;s and Rn&apos;s, massage
                   therapist, recreational therapist. Etc.
                 </p>
-              </div>
-            </div>
-            <div className="w-full lg:w-1/2 px-8">
-              <ul className="space-y-12">
-                <li className="flex items-baseline -mx-4">
-                  <div className="px-4">
-                    <span className="rounded-number">
-                      1
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Why Choose Amaze Care?
-                    </h3>
-                    <p className=" leading-loose">
-                      We strive to provide the best possible service out there. Here are a few reasons,
-                      among many others.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex items-baseline -mx-4">
-                  <div className="px-4">
-                    <span className="rounded-number">
-                      2
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Continuous Care Experts
-                    </h3>
-                    <p className=" leading-loose">
-                      We specialize in around the clock care to help seniors live well at home.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex items-baseline -mx-4">
-                  <div className="px-4">
-                    <span className="rounded-number">
-                      3
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Available 24/7
-                    </h3>
-                    <p className=" leading-loose">
-                      Care managers are on call for clients and their families, even during nights and
-                      weekends.
-                    </p>
-                  </div>
-                </li>
-              </ul>
+              </Paragraph>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-white text-primary relative">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: 'translateZ(0)' }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            />
-          </svg>
-        </div>
-
+      <section className="py-20">
         <div className="container mx-auto p-4 sm:p-6 lg:p-8">
-          <div className="flex flex-wrap -mx-8">
-            <div className="w-full lg:w-1/2 px-8">
-              <ul className="space-y-12">
-                <li className="flex items-baseline -mx-4">
-                  <div className="px-4">
-                    <span className="rounded-number">
-                      4
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Client Centered Care
-                    </h3>
-                    <p className=" leading-loose">
-                      Our unique approach to care promotes healthy mind, body and spirit.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex items-baseline -mx-4">
-                  <div className="px-4">
-                    <span className="rounded-number">
-                      5
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Flexible Contracts
-                    </h3>
-                    <p className=" leading-loose">
-                      Use our services only as long as you&#39;re 100% satisfied.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex items-baseline -mx-4">
-                  <div className="px-4">
-                    <span className="rounded-number">
-                      6
-                    </span>
-                  </div>
-                  <div className="px-4">
-                    <h3 className="my-4 text-xl font-semibold ">
-                      Collaborative care
-                    </h3>
-                    <p className=" leading-loose">
-                      We&apos;re honored to be connected with qualified individuals to get relevant
-                      information and even one on one care.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div className="w-full lg:w-1/2 px-8">
-              <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading ">
-                  What is Continuous Care?
-                </h2>
-                <p className="mb-8 leading-loose ">
-                  For people who are looking for an alternative instead of going to a facility, and
-                  wants the comfort and safety of round-the-clock monitoring and care, we offer
-                  24/7 continuous care. A caregiver comes to the senior&apos;s home and stays around the
-                  clock. With continuous care, a caregiver is always watching over the senior and is
-                  ready to assist in all activities of daily living.
-                </p>
-                <p className="mb-8 leading-loose ">
-                  Continuous care does not mean that the caregiver moves into the senior&apos;s home our
-                  care givers follow the care plan that we created with the family and follow them
-                  accordingly, ensuring high level of personal care and companionship that they
-                  deserve.
-                </p>
-              </div>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Features
+              icon={<BiHealth />}
+              heading="Why Choose Amaze Care?"
+              content="We strive to provide the best possible service out there. Here are a few reasons,
+                    among many others."
+            />
+            <Features
+              icon={<FaBuromobelexperte />}
+              heading="Continuous Care Experts"
+              content="We specialize in around the clock care to help seniors live well at home."
+            />
+            <Features
+              icon={<FaClock />}
+              heading="Available 24/7"
+              content="Care managers are on call for clients and their families, even during nights and
+                    weekends."
+            />
+            <Features
+              icon={<FaHospitalUser />}
+              heading="Client Centered Care"
+              content="Our unique approach to care promotes healthy mind, body and spirit."
+            />
+            <Features
+              icon={<FaFileContract />}
+              heading="Flexible Contracts"
+              content="Use our services only as long as you're 100% satisfied."
+            />
+            <Features
+              icon={<FaInfoCircle />}
+              heading="Collaborative care"
+              content="We&apos;re honored to be connected with qualified individuals to get relevant
+                    information and even one on one care."
+            />
           </div>
         </div>
       </section>

@@ -5,27 +5,8 @@ export default function TagAlongCare() {
   return (
     <main>
       <Header bgcolor="bg-white" title="Our Services" />
-      <section className="py-20 bg-white relative">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: 'translateZ(0)' }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            />
-          </svg>
-        </div>
-        <div className="container mx-auto">
+      <section className="py-20 bg-tertiary">
+        <div className="container-layout">
           <div className="flex flex-col">
             <p className="my-2 text-justify">
               Our Nurses will be accompanying your loved ones all the time so that there won`&apos;`t be any issues with a specific diet or insulin or other medications,

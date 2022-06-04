@@ -6,81 +6,51 @@ function Resources() {
     <main>
       <Header bgcolor="bg-white" title="Resources" />
       <section className="py-20 bg-white relative">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: 'translateZ(0)' }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            />
-          </svg>
-        </div>
-        <div className="container mx-auto px-4">
+        <div className="container-layout">
           <div className="text-[20px]">
             <h1 className="text-[40px] pb-[20px]"> Links </h1>
             <p>
               ALS Society of Canada
-              {' '}
               <a className="link" target="_blank" href="https://als.ca/" rel="noreferrer"> als.ca </a>
             </p>
             <p>
               Alzheimer Society of Nova Scotia
-              {' '}
               <a className="link" target="_blank" href="https://alzheimer.ca/ns/en" rel="noreferrer"> alzheimer.ns.ca </a>
             </p>
             <p>
               Carers Canada
-              {' '}
               <a className="link" target="_blank" href="https://www.carerscanada.ca/" rel="noreferrer"> carerscanada.ca </a>
             </p>
             <p>
               Canadian Mental Health Association
-              {' '}
               <a className="link" target="_blank" href="http://www.cmha.ca/" rel="noreferrer"> cmha.ca </a>
             </p>
             <p>
               Canadian Virtual Hospice
-              {' '}
               <a className="link" target="_blank" href="http://virtualhospice.ca/" rel="noreferrer"> virtualhospice.ca </a>
             </p>
             <p>
               Caregivers Nova Scotia
-              {' '}
               <a className="link" target="_blank" href="http://www.caregiversns.org/" rel="noreferrer"> caregiversns.org </a>
             </p>
             <p>
               CARP (Canadian Association for Fifty Plus)
-              {' '}
               <a className="link" target="_blank" href="http://www.50plus.com/" rel="noreferrer"> 50plus.com </a>
             </p>
             <p>
               Continuing Care Nova Scotia novascotia.ca/dhw/ccs/
-              {' '}
               <a className="link" target="_blank" href="http://novascotia.ca/dhw/ccs/" rel="noreferrer"> novascotia.ca/dhw/ccs/ </a>
             </p>
             <p>
               Multiple Sclerosis Society of Canada
-              {' '}
               <a className="link" target="_blank" href="http://www.mssociety.ca/" rel="noreferrer"> mssociety.ca </a>
             </p>
             <p>
               Parkinson Society
-              {' '}
               <a className="link" target="_blank" href="http://www.parkinson.ca/" rel="noreferrer"> parkinson.ca </a>
             </p>
             <p>
               Schizophrenia Society of Nova Scotia
-              {' '}
               <a className="link" target="_blank" href="http://www.ssns.ca/" rel="noreferrer"> ssns.ca </a>
             </p>
           </div>

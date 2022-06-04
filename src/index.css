@@ -10,37 +10,45 @@
   }
 
   h1 {
-    @apply text-2xl font-bold;
+    margin: 0 0 20px 0;
+    @apply text-3xl font-bold;
   }
 
   h2 {
-    @apply text-xl font-semibold;
+    margin: 0 0 20px 0;
+    @apply text-2xl font-semibold leading-normal;
   }
 
   h3 {
-    @apply text-lg font-semibold;
+    margin: 0 0 20px 0;
+    @apply text-sm md:text-xl font-semibold leading-normal;
   }
 
   p, label {
-    font-size: 18px;
     margin: 0 0 20px 0;
+    @apply text-gray-600 text-sm md:text-xl font-normal leading-loose;
   }
 
   a {
     @apply hover:text-secondary;
   }
 
+  .container-layout {
+    @apply container px-4 mx-auto;
+  }
+
   .link {
     @apply underline text-primary hover:text-secondary visited:text-secondary
   }
   
+  .button-link {
+    @apply w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-secondary hover:text-white md:py-4 md:text-lg md:px-10;
+  }
+
   input {
     @apply w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
   }
 
-  a {
-    /* @apply  */
-  }
   .nav-items {
     @apply block px-4 py-2 text-black border-gray-100 no-underline hover:bg-gray-100 hover:text-primary rounded-lg text-xl outline-offset-0;
   }

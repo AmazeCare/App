@@ -22,7 +22,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="App bg-primary">
+    <div className="App bg-white">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<PublicRoute />}>

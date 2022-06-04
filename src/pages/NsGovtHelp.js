@@ -1,51 +1,51 @@
 import React from 'react';
 import Header from 'components/Header';
+import Paragraph from 'components/common/paragraph';
+import { FaArrowRight } from 'react-icons/fa'
 
 function NsGovtHelp() {
   return (
     <main>
       <Header bgcolor="bg-white" title="NS Govt. Help" />
-      <section className="py-20 bg-white relative">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: 'translateZ(0)' }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            />
-          </svg>
-        </div>
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-tertiary">
+        <div className="container-layout">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-5/12 mr-auto">
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Supportive Care
-              </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4">
-                The Supportive Care Program supports eligible Nova Scotians with cognitive impairments
-                (difficulty thinking, concentrating, remembering, etc.)
-                by providing them with up to $1,000/month for Home Support Services (personal care, respite, meal preparation and household chores).
-                Under this program people may also be eligible to receive reimbursement for snow removal services up to $495/year.
-              </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4">
-                To receive funding for Supportive Care, you must:
-                <ul className="list-disc ml-[24px]">
-                  <li> Be a Nova Scotia resident with a valid Health Card. </li>
-                  <li> Have significant memory loss and memory problems that affect daily functioning.</li>
-                  <li> Be deemed by Continuing Care as needing a minimum of 25 hours/month of care support.</li>
-                  <li> Have a Substitute Decision Maker (someone who will act on your behalf and has signed an agreement that defines terms and conditions for this program).</li>
-                </ul>
-              </p>
+              <Paragraph heading="Supportive Care">
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4">
+                  The Supportive Care Program supports eligible Nova Scotians with cognitive impairments
+                  (difficulty thinking, concentrating, remembering, etc.)
+                  by providing them with up to $1,000/month for Home Support Services (personal care, respite, meal preparation and household chores).
+                  Under this program people may also be eligible to receive reimbursement for snow removal services up to $495/year.
+                </p>
+                <div className="text-lg font-light leading-relaxed mt-0 mb-4">
+                  To receive funding for Supportive Care, you must:
+                  <div className="flex items-center space-x-4 py-1">
+                    <div className="text-secondary">
+                      <FaArrowRight />
+                    </div>
+                    <span> Be a Nova Scotia resident with a valid Health Card. </span>
+                  </div>
+                  <div className="flex items-center space-x-4 py-1">
+                    <div className="text-secondary">
+                      <FaArrowRight />
+                    </div>
+                    <span> Have significant memory loss and memory problems that affect daily functioning. </span>
+                  </div>
+                  <div className="flex items-center space-x-4 py-1">
+                    <div className="text-secondary">
+                      <FaArrowRight />
+                    </div>
+                    <span> Be deemed by Continuing Care as needing a minimum of 25 hours/month of care support. </span>
+                  </div>
+                  <div className="flex items-center space-x-4 py-1">
+                    <div className="text-secondary">
+                      <FaArrowRight />
+                    </div>
+                    <span> Have a Substitute Decision Maker (someone who will act on your behalf and has signed an agreement that defines terms and conditions for this program). </span>
+                  </div>
+                </div>
+              </Paragraph>
             </div>
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">

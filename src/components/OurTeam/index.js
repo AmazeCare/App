@@ -13,7 +13,7 @@ function RenderTeamDetails({ name, image, title }) {
       <div className="overflow-hidden">
         <div className="lg:absolute lg:-mt-20 w-full flex justify-center">
           <div className="h-32 w-32">
-            <img src={image} alt className="rounded-full object-cover h-full w-full shadow-md" />
+            <img src={image} alt={name} className="rounded-full object-cover h-full w-full shadow-md" />
           </div>
         </div>
         <div className="px-6 mt-4 lg:mt-16">
@@ -68,33 +68,14 @@ function OurTeam() {
   }]
 
   return (
-    <div className="relative pt-16">
-      <div
-        className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-        style={{ transform: 'translateZ(0)' }}
-      >
-        <svg
-          className="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            className="text-primary fill-current"
-            points="2560 0 2560 100 0 100"
-          />
-        </svg>
-      </div>
-      <div className="container flex justify-center mx-auto">
+    <div className="pt-16 bg-tertiary">
+      <div className="container flex justify-center text-center mx-auto">
         <div className="mb-20">
-          <p className="xl:text-4xl text-3xl text-center text-white font-extrabold sm:w-4/6 w-5/6 mx-auto">BUILDING TEAM</p>
-          <h1 className="text-white text-lg text-center font-normal pb-3">The Talented People Behind the Scenes of the Organization</h1>
+          <h1 className="">BUILDING TEAM</h1>
+          <h3 className="">The Talented People Behind the Scenes of the Organization</h3>
         </div>
       </div>
-      <div className="w-full bg-white px-10 pt-10">
+      <div className="w-full px-10 pt-10">
         <div className="container mx-auto">
           <div className="lg:flex md:flex sm:flex items-center xl:justify-center flex-wrap md:justify-around sm:justify-around lg:justify-around">
             {items?.map((item) => <RenderTeamDetails name={item.name} title={item.title} image={item.image} />)}
