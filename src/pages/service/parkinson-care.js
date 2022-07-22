@@ -6,7 +6,7 @@ import { FaArrowRight } from 'react-icons/fa'
 export default function ParkinsonCare() {
   return (
     <main>
-      <Header bgcolor="bg-white" title="Parkinson Care" />
+      <Header bgcolor="bg-white" title="Parkinson's Care" />
       <section className="py-20 bg-tertiary text-center md:text-justify">
         <div className="container-layout">
           <div className="flex flex-col">
@@ -17,44 +17,44 @@ export default function ParkinsonCare() {
                 Although the disease affects patients differently, most Parkinson&apos;s sufferers are no longer able to perform
                 their daily activities independently and require assistance:
               </p>
-              <p className="my-2 mx-4">
-                <div className="flex items-center space-x-4 py-1">
+              <div className="my-2 mx-4 text-left">
+                <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
                   <span> A customized and comprehensive care plan to ensure that the client&apos;s needs are met</span>
                 </div>
-                <div className="flex items-center space-x-4 py-1">
+                <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
                   <span> The flexibility to choose different care and health care staff </span>
                 </div>
-                <div className="flex items-center space-x-4 py-1">
+                <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
                   <span> The option for consistent 24/7 monitoring to prevent falls </span>
                 </div>
-                <div className="flex items-center space-x-4 py-1">
+                <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
                   <span> Companionship, assistance and support with daily tasks </span>
                 </div>
-                <div className="flex items-center space-x-4 py-1">
+                {/* <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
                   <span> Transportation for appointments, errands or social gatherings </span>
-                </div>
-                <div className="flex items-center space-x-4 py-1">
+                </div> */}
+                <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
                   <span> Providing a safe and positive environment that promotes independence </span>
                 </div>
-              </p>
+              </div>
             </Paragraph>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function ParkinsonCare() {
               </p>
               <p>
                 Our services are available 24 hours a day, 7 days a week.
-                Whether it be part-time hourly care or full-time care, we provide the level of service that your loved one requires.
+                We provide the level of service that your loved one requires.
                 Our caregivers have extremely flexible schedules and are available immediately.
               </p>
               <p>

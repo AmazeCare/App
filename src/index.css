@@ -24,7 +24,7 @@
     @apply text-sm md:text-xl font-semibold leading-normal;
   }
 
-  p, label {
+  p, div, label {
     margin: 0 0 20px 0;
     @apply text-gray-600 text-sm md:text-xl font-normal leading-loose;
   }

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from 'components/Header'
 import Paragraph from 'components/common/paragraph';
 import PallitiveCareImage from 'assets/images/Services/PalliativeCare/PallitiveCare.png'
-import { FaArrowRight } from 'react-icons/fa'
+// import { FaArrowRight } from 'react-icons/fa'
 
 export default function PalliativeCare() {
   return (
@@ -16,7 +16,6 @@ export default function PalliativeCare() {
                 <p>
                   When a loved-one reaches the stage where treatment is no longer possible and moves
                   into the phase of palliative care it can be a very difficult time for the patient and the family.
-                  Home Care Assistance understands this and offers an option to help make this transition easier for everyone.
                 </p>
                 <p>
                   <b> Palliative Care is Best at Home </b>
@@ -38,7 +37,7 @@ export default function PalliativeCare() {
           </div>
         </div>
       </section>
-      <section className="py-20 text-center md:text-justify">
+      {/* <section className="py-20 text-center md:text-justify">
         <div className="container-layout">
           <div className="flex flex-col">
             <Paragraph heading="Palliative Support 24/7 to Maximize Comfort">
@@ -97,7 +96,7 @@ export default function PalliativeCare() {
             </Paragraph>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }

@@ -37,58 +37,58 @@ export default function HomeCare() {
       <section className="py-20">
         <div className="container-layout">
           <div className="flex flex-wrap space-x-4 items-center">
-            <p className="m-2 md:w-[55%]">
-              With Amaze care, clients enjoy help with:
-              <div className="flex items-center space-x-4 py-1">
+            <div className="m-2 md:w-[55%]">
+              <p> With Amaze care, clients enjoy help with: </p>
+              <div className="flex items-baseline space-x-4 py-1">
                 <div className="text-secondary">
                   <FaArrowRight />
                 </div>
                 <span> Grocery shopping and running errands </span>
               </div>
-              <div className="flex items-center space-x-4 py-1">
+              <div className="flex items-baseline space-x-4 py-1">
                 <div className="text-secondary">
                   <FaArrowRight />
                 </div>
                 <span> Cooking (meal and snack preparation) </span>
               </div>
-              <div className="flex items-center space-x-4 py-1">
+              <div className="flex items-baseline space-x-4 py-1">
                 <div className="text-secondary">
                   <FaArrowRight />
                 </div>
                 <span> Light housekeeping, dishes, changing the bed, laundry </span>
               </div>
-              <div className="flex items-center space-x-4 py-1">
+              <div className="flex items-baseline space-x-4 py-1">
                 <div className="text-secondary">
                   <FaArrowRight />
                 </div>
                 <span> Assistance with bathing, toileting and dressing </span>
               </div>
-              <div className="flex items-center space-x-4 py-1">
+              {/* <div className="flex items-baseline space-x-4 py-1">
                 <div className="text-secondary">
                   <FaArrowRight />
                 </div>
                 <span> Transportation to and assistance with doctor&apos;s appointments, shopping, pharmacy outings </span>
-              </div>
-              <div className="flex items-center space-x-4 py-1">
+              </div> */}
+              <div className="flex items-baseline space-x-4 py-1">
                 <div className="text-secondary">
                   <FaArrowRight />
                 </div>
                 <span> Assisting with walking, exercise and mobility </span>
               </div>
-              <div className="flex items-center space-x-4 py-1">
+              <div className="flex items-baseline space-x-4 py-1">
                 <div className="text-secondary">
                   <FaArrowRight />
                 </div>
                 <span> Giving status updates and feedback to the family </span>
               </div>
-              <div className="flex items-center space-x-4 py-1">
+              <div className="flex items-baseline space-x-4 py-1">
                 <div className="text-secondary">
                   <FaArrowRight />
                 </div>
                 <span> Medication reminders </span>
               </div>
               <p className="my-2 text-justify"> And more! </p>
-            </p>
+            </div>
             <div className="md:w-[40%]">
               <img
                 alt=""

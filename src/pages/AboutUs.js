@@ -21,37 +21,37 @@ function AboutUs() {
                   We enfold a positive, client centered approach for our clients.
                 </p>
                 <div className="my-2 mx-4">
-                  <div className="flex items-center space-x-4 py-1">
+                  <div className="flex items-baseline space-x-4 py-1">
                     <div className="text-secondary">
                       <FaArrowRight />
                     </div>
                     <span> Continuous Care Experts</span>
                   </div>
-                  <div className="flex items-center space-x-4 py-1">
+                  <div className="flex items-baseline space-x-4 py-1">
                     <div className="text-secondary">
                       <FaArrowRight />
                     </div>
                     <span> Available 24/7 </span>
                   </div>
-                  <div className="flex items-center space-x-4 py-1">
+                  <div className="flex items-baseline space-x-4 py-1">
                     <div className="text-secondary">
                       <FaArrowRight />
                     </div>
                     <span> Client Centered Care </span>
                   </div>
-                  <div className="flex items-center space-x-4 py-1">
+                  <div className="flex items-baseline space-x-4 py-1">
                     <div className="text-secondary">
                       <FaArrowRight />
                     </div>
                     <span> Flexible Contracts </span>
                   </div>
-                  <div className="flex items-center space-x-4 py-1">
+                  <div className="flex items-baseline space-x-4 py-1">
                     <div className="text-secondary">
                       <FaArrowRight />
                     </div>
                     <span> Satisfaction </span>
                   </div>
-                  <div className="flex items-center space-x-4 py-1">
+                  <div className="flex items-baseline space-x-4 py-1">
                     <div className="text-secondary">
                       <FaArrowRight />
                     </div>

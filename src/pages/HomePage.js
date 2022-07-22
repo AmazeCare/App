@@ -1,5 +1,5 @@
 import React from 'react'
-import mainImage from 'assets/main-page.png'
+import mainImage from 'assets/doctor.png'
 import Paragraph from 'components/common/paragraph';
 import { BiHealth } from 'react-icons/bi';
 import {
@@ -12,14 +12,16 @@ function HomePage() {
     <main>
       <section className="px-4 sm:px-6 lg:px-8 bg-white">
         <div className="container-layout flex flex-col lg:flex-row">
-          <div className="text-center lg:text-left flex-1 lg:w-2/3 lg:pt-16">
+          <div className="text-center lg:text-left flex-1 lg:w-2/3 lg:pt-16 lg:pr-4">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span className="xl:inline text-primary">Amaze</span>
               <span className="text-secondary xl:inline">Care</span>
             </h1>
+            <h2> Nurses doing nursing things.</h2>
             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-              Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+              It&#39;s all depending on what do you need, we have a variety of health
+              care professionals that we can help you with, qualified CCA, Lpn&#39;s and
+              Rn&#39;s, massage therapist, recreational therapist. Etc.
             </p>
             <div className="m-auto lg:m-0 w-2/3 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
@@ -29,7 +31,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <img className="block mx-auto sm:mx-0 sm:shrink-0" src={mainImage} alt="Woman's Face" />
+          <img className="block mx-auto my-4 lg:my-0 sm:mx-0 sm:shrink-0 object-cover w-1/2" src={mainImage} alt="Woman's Face" />
         </div>
       </section>
 

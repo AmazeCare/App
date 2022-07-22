@@ -12,7 +12,7 @@ export default function StrokeCare() {
           <div className="flex flex-col">
             <Paragraph>
               <p>
-                When a person suffers a stroke, the world goes upside down for them.
+                When a person suffering from a stroke, the world goes upside down for them.
                 They are forced with an overwhelming number of challenges that cause anxiety and frustration,
                 activities can be stressful for the client and family.
               </p>
@@ -22,23 +22,23 @@ export default function StrokeCare() {
                 them with their daily routine. As part of our specialized care, clients can choose from
               </p>
               <p className="my-2 mx-4">
-                <div className="flex items-center space-x-4 py-1">
+                <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
                   <span> Nursing care </span>
                 </div>
-                <div className="flex items-center space-x-4 py-1">
+                <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
                   <span> Recreation therapy </span>
                 </div>
-                <div className="flex items-center space-x-4 py-1">
+                <div className="flex items-baseline space-x-4 py-1">
                   <div className="text-secondary">
                     <FaArrowRight />
                   </div>
-                  <span> Physiotherapy </span>
+                  <span> Massage </span>
                 </div>
               </p>
             </Paragraph>

@@ -63,7 +63,7 @@ export default function HospitalCare() {
               Our caregivers are available anytime, anywhere.
               We know that hospital admissions and discharges are sometimes unexpected,
               so we can be there even on very short notice.
-              Contact a Care Manager today at to discuss a Hospital or Post-Hospital Care plan that can make
+              Contact a Care Manager today, to discuss a Hospital or Post-Hospital Care plan that can make
               hospital admission and post-hospital recovery a more relaxing experience.
             </p>
           </Paragraph>

@@ -49,7 +49,7 @@ export default function SubstituteHomeCare() {
       </section>
       <section className="py-20 bg-tertiary text-center md:text-justify">
         <div className="container-layout">
-          <div className="flex flex-col">
+          <div className="flex flex-col text-left">
             <Paragraph heading="Quality time with your loved ones">
               <p>
                 Let us take care of all the daily tasks and details of managing the home.

@@ -2,14 +2,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-filename-extension */
 import React, { useState } from 'react'
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import OutsideClickHandler from 'react-outside-click-handler';
 import logo from 'assets/logo.png'
 
 function NavItems() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [isOpen, setisOpen] = useState(false);
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <nav className="py-2.5 bg-[#F5F9F9]">
@@ -22,13 +22,13 @@ function NavItems() {
           </span>
         </a>
         <div className="flex md:order-2">
-          {/* <button
+          <button
             type="button"
             onClick={() => navigate('/contact-us')}
             className="text-white bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
           >
             Get started
-          </button> */}
+          </button>
           <button
             onClick={() => setNavbarOpen(!navbarOpen)}
             type="button"
