@@ -9,10 +9,10 @@ import Paragraph from 'components/common/paragraph'
 
 function Footer() {
   return (
-    <footer className="text-center lg:text-left bg-primary text-white">
+    <footer className="text-center lg:text-left bg-primary">
       <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="socialMedia mx-auto">
+          <div className="socialMedia mx-auto text-white">
             <Paragraph heading="Connect with us">
               <a href="#.">
                 <p className="flex items-center justify-center md:justify-start text-white pb-6">
@@ -40,7 +40,7 @@ function Footer() {
               </a>
             </Paragraph>
           </div>
-          <div className="links mx-auto">
+          <div className="links mx-auto text-white">
             <Paragraph heading="Useful Links">
               <p className="text-white">
                 <a href="/resources" className="">Resources</a>
@@ -56,7 +56,7 @@ function Footer() {
               </p>
             </Paragraph>
           </div>
-          <div className="contact mx-auto">
+          <div className="contact mx-auto text-white">
             <Paragraph heading="Contact">
               <p className="flex items-center justify-center md:justify-start text-white">
                 <HomeIcon />
